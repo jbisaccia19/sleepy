@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="u}0X6V4bR7hEzhTQ?:(t">amSleepy</variable><variable id="rlS,PW6]1~chJTz#1sRS">coffee</variable><variable type="KIND_SpriteKind" id="nZZ}bY_gyTR,%,gdTnCm">Player</variable><variable type="KIND_SpriteKind" id=";f65L8Jh(gI$JY59[OC.">Projectile</variable><variable type="KIND_SpriteKind" id="nkjx8mLj}Lv*-J~QrSe0">Food</variable><variable type="KIND_SpriteKind" id="~ltnp8EcdL`j=bwyh#_t">Enemy</variable></variables><block type="pxt-on-start" id="1wnY+jLRy0Mo)oi]Q~.K" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="C:]K1`Fa*a58]AyFj!%Y"><field name="VAR" id="u}0X6V4bR7hEzhTQ?:(t">amSleepy</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="E_M$UA|X{:tQlV0_qUZ9"><field name="BOOL">TRUE</field></block></value><next><block type="controls_if" id="I3d8ip_AcZ%_-5%?eF=P"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="Bs{,J^XG.3i|RncpeSJC"><field name="VAR" id="u}0X6V4bR7hEzhTQ?:(t">amSleepy</field></block></value><statement name="DO0"><block type="variables_set" id="xAl{`NRoRWB@/w#+{YMJ"><field name="VAR" id="rlS,PW6]1~chJTz#1sRS">coffee</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="hL_2XHjkCa~PqnX$Xe-="><value name="img"><shadow type="screen_image_picker" id="B(b%QK%)!p]j(+eQ_TNH"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . d . . . . d . . . . . . 
+. . . . d . . . d d . . . . . . 
+. . . . . d . . d . . . . . . . 
+. . . . 1 d 1 1 d 1 . . . . . . 
+. . . . 1 e d e e 1 . . . . . . 
+. . . . 1 e e e 1 1 1 1 . . . . 
+. . . . 1 1 1 1 1 1 . 1 . . . . 
+. . . . 1 1 1 1 1 1 . 1 . . . . 
+. . . . 1 1 1 1 1 1 . 1 . . . . 
+. . . . 1 1 1 1 1 1 1 1 . . . . 
+. . . . 1 1 1 1 1 1 . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"B(b%QK%)!p]j(+eQ_TNH"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ZnP!_eo6Ms3TNTG,KzVL"><field name="MEMBER">Food</field></shadow></value></block></value></block></statement></block></next></block></statement></block></xml>
